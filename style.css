@@ -1,0 +1,96 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: url("https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.title{
+	font-size: 42px;
+	text-align: right;
+	padding: 20px;
+}
+
+h1{
+	font-size: 5rem;
+}
+sup{
+	font-size: 1.5rem;
+	padding-right: 20px;
+}
+
+.current_location_details{
+	padding-top: 10px;
+	padding-right: 30px;
+}
+
+.current_weather_details{
+	padding-left: 20px;
+}
+
+.weather-report{
+	display: flex;
+	justify-content: center;
+	padding: 25rem 0 0;
+}
+
+.search-container{
+	border: 1px solid #12130F;
+	background: #12130F;
+	opacity: 0.5;
+}
+
+input{
+	font-size: 20px;
+	color: #EAE6E5;
+	background: transparent;
+	margin: 20px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #EAE6E5;
+	padding-bottom: 10px;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #fff;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  border: 2px solid #12130F;
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0 #12130F;
+}
+
+button:hover {
+  color: #12130F;
+  box-shadow: inset 0 -100px 0 0 #fff;
+}
+
+button:active {
+  transform: scale(0.9);
+}
+
+.details-container{
+	color: #fff;
+}
+
+.details{
+	padding: 20px;
+}
+
+.details div:nth-of-type(2){
+	text-align: right;
+}
